@@ -1,0 +1,4 @@
+[program:node-whois-server]
+command=/usr/bin/node /home/thaddeus/node-whois-server/whois-server.js
+directory=/home/thaddeus/node-whois-server
+numprocs=1
